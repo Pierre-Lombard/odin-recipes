@@ -15,15 +15,12 @@ fieldset{
 }
 fieldset h1{
     text-align: center;
+    font-size: 45pt;
 }
 img{
     border-radius: 15pt;
 }
 
-img:hover{
-    width: 50%;
-    border: 4pt solid #284b63;
-}
 table{
     padding: 15pt;
 }
@@ -34,4 +31,34 @@ table td{
 table td p{
     font-size: 18pt;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.btn{
+   border-radius: 5pt;
+   background-image: linear-gradient(
+       to right,
+       #3c6e71,
+       #284b63);
+    width: 25%;
+    height: 30pt;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+.btnHome{
+    border-radius: 5pt;
+    background-image: linear-gradient(
+        to right,
+        #3c6e71,
+        #284b63);
+     width: 25%;
+     height: 30pt;
+     color: #ffffff;
+     transition: all 0.3s ease-in-out;
+     text-align: center;
+ }
+.btn:hover{
+    width: 50%;
+    height: 40pt;
+    font-size: 30pt;
 }
