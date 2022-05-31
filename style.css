@@ -1,0 +1,37 @@
+body{
+    background-image: linear-gradient(
+        to right,
+        #3c6e71,
+        #284b63);
+
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;  
+}
+
+fieldset{
+    background-color: #353535;
+    border-radius: 14pt;
+    
+}
+fieldset h1{
+    text-align: center;
+}
+img{
+    border-radius: 15pt;
+}
+
+img:hover{
+    width: 50%;
+    border: 4pt solid #284b63;
+}
+table{
+    padding: 15pt;
+}
+table td{
+    text-align: center;
+    font-size: 25pt;
+}
+table td p{
+    font-size: 18pt;
+    font-family: 'Times New Roman', Times, serif;
+}
