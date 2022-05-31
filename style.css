@@ -33,28 +33,22 @@ table td p{
     font-family: 'Times New Roman', Times, serif;
 }
 
-.btn{
-   border-radius: 5pt;
-   background-image: linear-gradient(
-       to right,
-       #3c6e71,
-       #284b63);
-    width: 25%;
-    height: 30pt;
-    color: #ffffff;
-    transition: all 0.3s ease-in-out;
-}
-
-.btnHome{
+.btn, .btnHome{
     border-radius: 5pt;
     background-image: linear-gradient(
         to right,
-        #3c6e71,
-        #284b63);
-     width: 25%;
+        #284b63,
+        #3c6e71);
+     width: 40%;
      height: 30pt;
      color: #ffffff;
      transition: all 0.3s ease-in-out;
+     font-size: 20pt;  
+}
+
+.btnHome{
+     display: block;
+     margin: 1.0em auto;
      text-align: center;
  }
 .btn:hover{
